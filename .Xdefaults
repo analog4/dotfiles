@@ -1,0 +1,90 @@
+#B58858! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!----------------------------------------------------------------------------!
+!									     !
+!	U R X V T - Settings						     !
+!									     !
+!----------------------------------------------------------------------------!
+URxvt*geometry: 80x23
+URxvt*internalBorder: 2
+!URxvt*borderColor: #151515
+!URxvt*borderLess:				true
+URxvt*depth:					32
+URxvt*scrollBar_right:				true
+URxvt*font:					xft:lime:pixelsize=8:antialias=true:hinting=true
+URxvt*boldFont: 			xft:lime:pixelsize=8:antialias=true:hinting:true
+URxvt*cursorBlink:				true
+URxvt*cursorUnderline:				true
+URxvt*scrollColor:				#111111
+URxvt*perl-ext-common:				default,clipboard,matcher
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+URxvt.scrollBar:				off
+URxvt*buffered: true
+URxvt.tabbed.tabbar-fg:			 	7
+URxvt.tabbed.tabbar-bg: 			0
+URxvt.tabbed.tab-fg:    			4
+URxvt.tabbed.tab-bg:    			0	
+URxvt*termName:				 	rxvt-256color
+URxvt.urlLauncher:				/usr/bin/firefox
+URxvt.matcher.button:				1
+
+
+!-------------------------------------------------------------------------!
+!									  !
+!	U R X V T - Colors						  !
+!									  !
+!-------------------------------------------------------------------------!
+
+URxvt*colorBD: #ffffff
+URxvt*colorIT: #a761c2
+URxvt*colorUL: #6d9cbe
+URxvt*underlineColor: #435D75
+URxvt*cursorColor:       #435D75
+
+URxvt*highlightColor: #435D75
+URxvt*highlightTextColor: #90EE90
+
+URxvt.background: #232323
+URxvt.foreground: #A0A0A0
+
+URxvt.colorBD:    #CFCFCF
+URxvt.colorUL:    #A0A0A0
+URxvt.colorIT:    #686868
+
+!BLK
+URxvt.color0:     #303030
+URxvt.color8:     #686868
+
+!RED
+URxvt.color9:     #FFA7DA
+URxvt.color1:     #D370A3
+
+!GRN
+URxvt.color10:    #A3D572
+URxvt.color2:     #6D9E3F
+
+!BLU
+URxvt.color12:    #98CBFE
+URxvt.color4:     #6095C5
+
+!YEL
+URxvt.color11:    #EFBD8B
+URxvt.color3:     #B4C95D
+
+!CYN
+URxvt.color14:    #75DAA9
+URxvt.color6:     #3BA275
+
+!MAG
+URxvt.color13:    #E5B0FF
+URxvt.color5:     #AC7BDE
+
+!WHT
+URxvt.color7:     #CFCFCF
+URxvt.color15:    #FFFFFF
